@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MailtoURLParser_Example', :exclusive => true do
+  pod 'MailtoURLParser', :path => '../'
+end
+
+target 'MailtoURLParser_Tests', :exclusive => true do
+  pod 'MailtoURLParser', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
