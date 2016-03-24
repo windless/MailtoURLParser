@@ -1,0 +1,6 @@
+framework module MailtoURLParser {
+  umbrella header "MailtoURLParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
